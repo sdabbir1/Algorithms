@@ -1,25 +1,38 @@
-package leetCode;
-
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Iterator;
-import java.util.List;
-import java.util.ListIterator;
+package Testhere;
 
 public class Driver {
 
 	public static void main(String[] args) 
 	{
-		MergeSort ms = new  MergeSort();
-		int[] arr = {1,4,3,5,2};
-		int[] ans = ms.sort(arr);
+		/*Stack minStack = new Stack();
+		minStack.push(2);
+		minStack.push(10);
+		minStack.push(3);
+		minStack.push(0);
+		minStack.getMin();   // Returns 0.
+		minStack.pop();
+		minStack.getMin();   // Returns 2.
+		minStack.pop();
+		minStack.getMin();   // Returns 2.
+		minStack.pop();
+		minStack.getMin();   // Returns 2.
+		//minStack.pop();
+*/		
 		
-		for(int i=0; i < ans.length; i++)
-		{
-			System.out.println(ans[i]);
-		}
+		/*MajorityeElement me = new MajorityeElement();
+		int[] arr = {1,2,2,3,2};
+		int t = me.majorityElement(arr);
+		System.out.println(t);*/
+		
+		/*DNA dna = new DNA();
+		dna.findRepeatedDnaSequences("AAAAAAAAAAA");*/
+		
+		/*RotateArray rt = new RotateArray();
+		int[] nums = {-1};
+		rt.rotate(nums, 2);*/
+		
+		IntToBinary itb = new IntToBinary();
+		itb.int2Binary(43261596);
 	}
 
 }
-
